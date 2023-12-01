@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.invisible-element {
+  display: none;
+}
+
 .footer__link {
   font-size: 0.9rem;
   font-weight: 600;

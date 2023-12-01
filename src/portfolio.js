@@ -1,18 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'https://github.com/hassairyz',
   title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Zakaria Hassairy',
+  role: 'Front/Back end developpeur',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Passionné par le développement informatique depuis mon plus jeune âge. ' +
+      'J\'ai fait de ma passion le pilier fondateur de mon projet professionnel.',
+
+
+  resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/zakaria-hassairy-062386264/',
     github: 'https://github.com',
   },
 }
@@ -21,28 +24,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Etu-sTage',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Conception et implementation d\'un site web permettant aux étudiants de rechercher et postuler pour des alternances/stages',
+    stack: ['PHP', 'JS', 'CSS'],
+    sourceCode: 'https://gitlabinfo.iutmontp.univ-montp2.fr/velteri/sae-s3',
   },
   {
-    name: 'Project 2',
+    name: 'Aventurier du rail',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Implementation du jeu de société Les aventuriers du rail avec une interface utilisateur',
+    stack: ['JAVA', 'JavaFX', 'FXML'],
+    sourceCode: 'https://gitlabinfo.iutmontp.univ-montp2.fr/dev-objets/etu/bassiere-hassairyz/aventuriers-monde',
   },
   {
-    name: 'Project 3',
+      name: 'A venir',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Projet en cours de developpement',
+    stack: [''],
+    sourceCode: '',
+    livePreview: '',
   },
 ]
 
@@ -52,20 +53,17 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'PHP',
+  'C',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+    'SQL',
+    'PL SQL',
+    'Oracle'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'Keolystv@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

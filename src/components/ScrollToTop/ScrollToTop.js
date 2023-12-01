@@ -15,6 +15,7 @@ const ScrollToTop = () => {
 
   return isVisible ? (
     <div className='scroll-top'>
+      {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <a href='#top'>
         <ArrowUpwardIcon fontSize='large' />
       </a>
